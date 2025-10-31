@@ -60,14 +60,46 @@ you should be able to see white.mp4 video inside the data folder
 
 ```python3 src/video_to_edge.py --video data/white.mp4 --out out/video_to_edge.mp4```
 
-```python3 src/edge_to_lane.py --video data/white.mp4 --out out/edge_to_lane.mp4```
+```python3 src/edge_to_lane.py --video data/white.mp4 --out out/video_to_lane.mp4```
 
 # Step5 - Verify the output in the "out" directory:
 
-open video_to_edge.mp4
+run this command to execute the output 
+
+```open video_to_edge.mp4```
+
+![Edge detection stage showing grayscale and edge maps](temp/video_to_edge.png)
+
+This four-part visualization helps understand each step in the processing sequence:
+
+First Panel (Original Frame)
+Displays the raw grayscale frame from the input dashcam video (white.mp4). This is the starting point before any filtering or edge detection is applied.
+
+Second Panel (Blurred Frame)
+A Gaussian blur (3×3 kernel) is applied to reduce noise and smooth small variations in the image, which helps in preventing false edge detection.
+
+Third Panel (Canny Edge Detection)
+The Canny edge detector identifies sharp intensity changes, highlighting lane markings, guard rails, and other high-contrast regions in white.
+This step forms the foundation for later line detection.
+
+Fourth Panel (ROI-Masked Edges)
+The Region of Interest (ROI) mask limits the visible edges to the part of the frame where lanes are expected. This trapezoidal area reduces computational load and removes irrelevant edges such as the sky or roadside trees.
 
 
+```video_to_lane.mp4```
 
+![Lane detection overlay showing detected lane lines](temp/video_to_lane.png)
+
+This visualization is divided into two panels:
+
+Left Panel – Original Frame
+Displays the original dashcam frame from the input video (white.mp4).
+This frame serves as the baseline reference before applying any detection or overlay.
+
+Right Panel – Lane Overlay
+Shows the same frame after processing through the pipeline.
+The detected lane boundaries are highlighted in green, obtained using the Hough Line Transform.
+These lines represent the estimated left and right lane edges based on the detected road markings within the defined Region of Interest (ROI).
 
 
 
