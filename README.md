@@ -7,3 +7,6 @@ After the CPU version is solid, the edge-detection stage is moved onto the FPGA.
 The design is intentionally modular. The host manages I/O, light preprocessing, and visualization, while the FPGA accelerates the heavy computation. This split makes development simple on a single machine today and leaves room to scale to a larger or cloud setup later without rewriting the entire pipeline.
 
 By the end of the project, the full flow demonstrates how FPGA acceleration can speed up a vision workload without sacrificing correctness. Deliverables include the CPU “golden” results, side-by-side comparisons of original and processed video, a four-panel clip showing each stage of the pipeline, and an FPGA-accelerated run that highlights the performance gains.
+
+
+
