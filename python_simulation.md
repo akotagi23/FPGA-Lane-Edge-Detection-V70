@@ -62,6 +62,12 @@ you should be able to see white.mp4 video inside the data folder
 
 ```python3 src/edge_to_lane.py --video data/white.mp4 --out out/edge_to_lane.mp4```
 
+# Step5 - Verify the output in the "out" directory:
+
+open video_to_edge.mp4
+
+
+
 
 
 
