@@ -35,11 +35,32 @@ The following steps set up the tools needed to run the Python/OpenCV simulation 
 
   ```pip3 install numpy opencv-python```
 
-# Step2 - File Creation
+# Step2 - To download this project onto any system, run the following command in the terminal:
 
-Create three top-level folders to keep the project organized:
+```git clone https://github.com/akotagi23/FPGA-Lane-Edge-Detection-V70.git```
 
-```mkdir -p lane_detect/{src,data,out}```
+Once cloned, move into the project directory:
+
+```cd FPGA-Lane-Edge-Detection-V70```
+
+# Step3 - Download Sample Dashcam Video
+
+```cd data```
+
+```wget -O white.mp4 https://raw.githubusercontent.com/udacity/CarND-LaneLines-P1/master/test_videos/solidWhiteRight.mp4```
+
+you should be able to see white.mp4 video inside the data folder
+
+```cd ..```
+
+
+# Step4 - Run the python codes
+
+```cd FPGA-Lane-Edge-Detection-V70```
+
+```python3 src/video_to_edge.py --video data/white.mp4 --out out/video_to_edge.mp4```
+
+```python3 src/edge_to_lane.py --video data/white.mp4 --out out/edge_to_lane.mp4```
 
 
 
