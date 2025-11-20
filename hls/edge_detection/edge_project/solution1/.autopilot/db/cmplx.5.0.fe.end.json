@@ -1,0 +1,65 @@
+{
+    "1": {
+        "name": "edge_detect_Pipeline_gauss_loop_VITIS_LOOP_28_1",
+        "file": "edge_detect.cpp",
+        "fileloc": "27",
+        "instructions": "150",
+        "total_instructions": "150",
+        "calls": "",
+        "basicblocks": "20",
+        "loads": {
+            "L": "5"
+        },
+        "stores": {
+            "L": "19"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "edge_detect",
+        "file": "edge_detect.cpp",
+        "fileloc": "4",
+        "instructions": "55",
+        "total_instructions": "579",
+        "calls": "1 3 2",
+        "basicblocks": "3"
+    },
+    "2": {
+        "name": "edge_detect_Pipeline_thresh_loop_VITIS_LOOP_58_7",
+        "file": "edge_detect.cpp",
+        "fileloc": "57",
+        "instructions": "67",
+        "total_instructions": "67",
+        "calls": "",
+        "basicblocks": "7",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "edge_detect_Pipeline_sobel_loop_VITIS_LOOP_42_4",
+        "file": "edge_detect.cpp",
+        "fileloc": "41",
+        "instructions": "307",
+        "total_instructions": "307",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "75"
+        },
+        "stores": {
+            "L": "7"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/reports/link
+	Log files: /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_detect.xclbin.link_summary, at Wed Nov 19 13:49:07 2025
+INFO: [v++ 60-1315] Creating rulecheck session with output '/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/reports/link/v++_link_edge_detect_guidance.html', at Wed Nov 19 13:49:07 2025
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2023.2
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u280_gen3x16_xdma_1_202211_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [13:49:11] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_detect.xo --xpfm /opt/xilinx/platforms/xilinx_u280_gen3x16_xdma_1_202211_1/xilinx_u280_gen3x16_xdma_1_202211_1.xpfm --target hw --output_dir /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/int --temp_dir /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/run_link
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_detect.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [13:49:13] build_xd_ip_db started: /share/Xilinx/Vitis/2023.2/bin/build_xd_ip_db -ip_search 0  -sds-pf /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/hw.hpfm -clkid 0 -ip /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/iprepo/xilinx_com_hls_edge_detect_1_0,edge_detect -o /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [13:49:20] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 455.910 ; gain = 0.000 ; free physical = 573690 ; free virtual = 586425
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [13:49:20] cfgen started: /share/Xilinx/Vitis/2023.2/bin/cfgen  -dpa_mem_offload false -dmclkid 0 -r /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: edge_detect, num: 1  {edge_detect_1}
+ERROR: [CFGEN 83-2284] No stream resources found that can accomodate compute unit "edge_detect_1.in_stream"
+ERROR: [SYSTEM_LINK 82-36] [13:49:29] cfgen failed
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 455.910 ; gain = 0.000 ; free physical = 573688 ; free virtual = 586424
+ERROR: [SYSTEM_LINK 82-62] Error generating design file for /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml, command: /share/Xilinx/Vitis/2023.2/bin/cfgen  -dpa_mem_offload false -dmclkid 0 -r /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+ERROR: [SYSTEM_LINK 82-96] Error applying explicit connections to the system connectivity graph
+ERROR: [SYSTEM_LINK 82-79] Unable to create system connectivity graph
+INFO: [v++ 60-1442] [13:49:30] Run run_link: Step system_link: Failed
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 463.371 ; gain = 0.000 ; free physical = 573755 ; free virtual = 586486
+ERROR: [v++ 60-661] v++ link run 'run_link' failed
+ERROR: [v++ 60-626] Kernel link failed to complete
+ERROR: [v++ 60-703] Failed to finish linking
+INFO: [v++ 60-1653] Closing dispatch client.

@@ -1,0 +1,49 @@
+{
+  "0": {
+    "basicblocks": 67,
+    "calls": "1 1",
+    "file": "edge_detect.cpp",
+    "fileloc": 4,
+    "instructions": 227,
+    "loads": {
+      "G": 3,
+      "L": 5
+    },
+    "name": "edge_detect",
+    "stores": {
+      "L": 2,
+      "T": 3
+    },
+    "total_instructions": 869
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "2",
+    "file": "absint.cpp",
+    "fileloc": 17,
+    "instructions": 15,
+    "loads": {
+      "L": 1
+    },
+    "name": "abs",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 245
+  },
+  "2": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "hls_round_copysign_apfixed.h",
+    "fileloc": 159,
+    "instructions": 28,
+    "loads": {
+      "L": 1
+    },
+    "name": "fabs_fixed<32>",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 210
+  }
+}

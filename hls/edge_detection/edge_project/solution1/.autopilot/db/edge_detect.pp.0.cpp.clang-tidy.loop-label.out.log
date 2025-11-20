@@ -1,0 +1,763 @@
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:1317:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:1317:7: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:2291:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:2291:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:2305:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:2305:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:2319:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:2319:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:3948:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:3948:7: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15720:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                       ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15721:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                       ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15722:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                       ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15723:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
+                                                                       ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15724:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
+                                                                       ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15754:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15755:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15756:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15757:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15758:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15759:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15760:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15761:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15762:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15763:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15813:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                      ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15814:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                      ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15815:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                      ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15842:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15843:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15844:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15845:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15846:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15847:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15883:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                        ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:15884:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                        ^
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16158:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_61_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16158:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16204:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_117_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16204:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16367:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_289_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16367:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16519:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_449_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16519:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16699:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_629_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16699:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16703:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_633_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16703:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16813:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_743_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16813:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16903:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_840_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16903:7: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16922:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_859_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:16922:7: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17212:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1173_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17212:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17295:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1256_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17295:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17701:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+            for (int j = 3; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_68_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17701:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17707:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+                for (int j = 3; j >= I_+1; j--){
+                ^~~
+                VITIS_LOOP_74_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17707:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17711:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_78_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17711:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17759:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+            for (int j = 9; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_145_4: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17759:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17765:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+                for (int j = 9; j >= I_+4; j--){
+                ^~~
+                VITIS_LOOP_151_5: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17765:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17769:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_155_6: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17769:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17784:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+        for (int j = 14; j < 22; j++){
+        ^~~
+        VITIS_LOOP_170_7: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17784:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17792:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++){
+                ^~~
+                VITIS_LOOP_178_8: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17792:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17857:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+            for (int j = 21; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_243_9: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17857:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17863:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+                for (int j = 21; j >= I_+10; j--) {
+                ^~~
+                VITIS_LOOP_249_10: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17863:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17867:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_253_11: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17867:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17882:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+        for (int j = 27; j < 46; j++){
+        ^~~
+        VITIS_LOOP_268_12: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17882:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17890:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_276_13: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:17890:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18119:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+            for (int j = 45; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_505_14: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18119:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18125:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+                for (int j = 45; j >= I_+22; j--){
+                ^~~
+                VITIS_LOOP_511_15: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18125:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18129:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_515_16: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18129:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18139:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+        for (int j = 32-F_; j < 32+I_; j++){
+        ^~~
+        VITIS_LOOP_525_17: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18139:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18143:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+        for (int j = 32+I_; j <= 64; j++){
+        ^~~
+        VITIS_LOOP_529_18: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18143:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18153:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+        for (int j = 37; j < 64; j++) {
+        ^~~
+        VITIS_LOOP_539_19: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18153:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18161:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++){
+                ^~~
+                VITIS_LOOP_547_20: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18161:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18522:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+            for (int j = 63; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_908_21: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18522:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18528:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+                for (int j = 63; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_914_22: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18528:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18532:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_918_23: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18532:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18648:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+            for (int j = 4; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_1034_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18648:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18654:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+                for (int j = 4; j >= I_+1; j--) {
+                ^~~
+                VITIS_LOOP_1040_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18654:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18658:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1044_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18658:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18745:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+            for (int j = 10; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_1131_4: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18745:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18751:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+                for (int j = 10; j >= I_+4; j--) {
+                ^~~
+                VITIS_LOOP_1137_5: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18751:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18755:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1141_6: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18755:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18774:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+        for (int j = wf+3; j < w-1; j++) {
+        ^~~
+        VITIS_LOOP_1160_7: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18774:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18781:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++) {
+                ^~~
+                VITIS_LOOP_1167_8: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18781:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18897:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+            for (int j = 22; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_1283_9: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18897:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18903:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+                for (int j = 22; j >= I_+10; j--){
+                ^~~
+                VITIS_LOOP_1289_10: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18903:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18907:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1293_11: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18907:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18927:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+        for (int j = wf+4; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1313_12: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18927:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18934:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_1320_13: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:18934:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19196:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+            for (int j = 46; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_1582_14: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19196:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19202:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+                for (int j = 46; j >= I_+22; j--) {
+                ^~~
+                VITIS_LOOP_1588_15: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19202:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19206:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1592_16: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19206:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19230:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+        for (int j = wf+5; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1616_17: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19230:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19237:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++) {
+                ^~~
+                VITIS_LOOP_1623_18: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19237:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19667:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+            for (int j = 64; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_2053_19: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19667:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19673:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+                for (int j = 64; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_2059_20: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19673:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19677:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_2063_21: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19677:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19807:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+            for(int j=3; j>=I+1; j--) {
+            ^~~
+            VITIS_LOOP_2193_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19807:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19814:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+                for(int j=3; j>=I+1; j--) {
+                ^~~
+                VITIS_LOOP_2200_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19814:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19818:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+                for(int j=I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2204_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19818:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19865:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+            for(int j=7; j>=3+I; j--) {
+            ^~~
+            VITIS_LOOP_2251_4: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19865:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19872:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+                for(int j=7; j>=3+I; j--) {
+                ^~~
+                VITIS_LOOP_2258_5: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19872:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19876:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+                for(int j=I+2; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2262_6: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19876:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19894:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+        for(int j=11; j<16; j++) {
+        ^~~
+        VITIS_LOOP_2280_7: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19894:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19949:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+            for(int j=15; j>=7+I; j--) {
+            ^~~
+            VITIS_LOOP_2335_8: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19949:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19956:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+                for(int j=15; j>=7+I; j--) {
+                ^~~
+                VITIS_LOOP_2342_9: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19956:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19960:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+                for(int j=6+I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2346_10: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19960:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19978:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+        for(int j=20; j<32; j++) {
+        ^~~
+        VITIS_LOOP_2364_11: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:19978:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20067:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+            for(int j=31; j>=I+15; j--) {
+            ^~~
+            VITIS_LOOP_2453_12: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20067:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20074:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+                for(int j=31; j>=I+15; j--) {
+                ^~~
+                VITIS_LOOP_2460_13: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20074:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20078:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+                for(int j=I+14; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2464_14: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20078:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20088:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+        for(int j=32-F; j<32+I; j++) {
+        ^~~
+        VITIS_LOOP_2474_15: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20088:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20092:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+        for(int j=32+I; j<=64; j++) {
+        ^~~
+        VITIS_LOOP_2478_16: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20092:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20103:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+        for(int j=37; j<64; j++) {
+        ^~~
+        VITIS_LOOP_2489_17: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20103:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20111:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+                for(int j=0; j<64; j++) {
+                ^~~
+                VITIS_LOOP_2497_18: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20111:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20436:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+            for(int j=63; j>=I+31; j--) {
+            ^~~
+            VITIS_LOOP_2822_19: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20436:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20443:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+                for(int j=63; j>=I+31; j--) {
+                ^~~
+                VITIS_LOOP_2829_20: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20443:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20447:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+                for(int j=I+30; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2833_21: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20447:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20535:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+   for(int j = 5; j>=I_+2; j--) {
+   ^~~
+   VITIS_LOOP_2921_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20535:4: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20542:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+    for(int j = 5; j>=I_+2; j--) {
+    ^~~
+    VITIS_LOOP_2928_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20542:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20546:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+    for(int j = I_+1; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2932_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20546:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20561:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+  for(int j = 11; j >=7; j--) {
+  ^~~
+  VITIS_LOOP_2947_4: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20561:3: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20593:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+   for(int j = 11; j >= I_+5; j--) {
+   ^~~
+   VITIS_LOOP_2979_5: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20593:4: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20600:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+    for(int j = 11; j>= I_+5; j--) {
+    ^~~
+    VITIS_LOOP_2986_6: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20600:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20604:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+    for(int j = I_+4; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2990_7: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20604:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20619:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+  for(int j = 25; j>=15; j--) {
+  ^~~
+  VITIS_LOOP_3005_8: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20619:3: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20669:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+   for(int j = 25; j>= I_+12; j--) {
+   ^~~
+   VITIS_LOOP_3055_9: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20669:4: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20676:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+    for(int j = 25; j>=I_+12; j--) {
+    ^~~
+    VITIS_LOOP_3062_10: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20676:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20680:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+    for(int j = I_+11; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_3066_11: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20680:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20695:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+  for(int j = 51; j >= 29; j--) {
+  ^~~
+  VITIS_LOOP_3081_12: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20695:3: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20832:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+   for(int j = 51; j >= 25 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3218_13: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20832:4: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20839:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+    for(int j = 51; j>=25 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3225_14: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20839:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20843:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+    for(int j = 24 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3229_15: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20843:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20858:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+  for(int j = 63; j >= 36; j--) {
+  ^~~
+  VITIS_LOOP_3244_16: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:20858:3: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21018:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+   for(int j = 63; j >= 31 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3404_17: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21018:4: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21025:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+    for(int j = 63; j >= 31 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3411_18: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21025:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21029:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+    for(int j = 30 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3415_19: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21029:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21744:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_703_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21744:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21962:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_921_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:21962:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:22379:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_1345_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:22379:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:22699:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+        for ( int pos = msbr-1; pos >= 0; pos-- ) {
+        ^~~
+        VITIS_LOOP_240_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:22699:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:22727:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+        for ( int pos = -1; pos >= -F_-1; pos-- ) {
+        ^~~
+        VITIS_LOOP_268_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:22727:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23429:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+            for (int j = 0; j < W_-1; j++){
+            ^~~
+            VITIS_LOOP_48_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23429:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23482:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+    for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
+    ^~~
+    VITIS_LOOP_109_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23482:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23496:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+            for (int j = WO_m-1; j >= W_-1; j--) {
+            ^~~
+            VITIS_LOOP_123_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23496:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23526:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+            for (int j = W_-2; j >= 0; j--){
+            ^~~
+            VITIS_LOOP_153_4: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23526:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23611:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+           for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
+           ^~~
+           VITIS_LOOP_281_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23611:12: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23631:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+               for (int j = WO_e-1; j >= W_-1; j--) {
+               ^~~
+               VITIS_LOOP_301_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23631:16: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23645:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+                   for(int i = 0; i < W_-1; ++i) {
+                   ^~~
+                   VITIS_LOOP_315_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23645:20: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23738:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+           for (int j =WO_d-1; j >= W_-1; j--) {
+           ^~~
+           VITIS_LOOP_433_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23738:12: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23752:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+              for(int i = 0; i < W_-1; ++i) {
+              ^~~
+              VITIS_LOOP_447_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23752:15: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23872:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_33_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23872:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23996:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_183_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:23996:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24051:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_248_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24051:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24570:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_16_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24570:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24581:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_27_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24581:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24592:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_38_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24592:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24603:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_49_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24603:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24614:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_60_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24614:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24625:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_71_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24625:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24636:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_82_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24636:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24647:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_93_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:24647:2: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:26972:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+           for(int i = 0; i < W_-1; ++i) {
+           ^~~
+           VITIS_LOOP_26_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:26972:12: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27036:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+      for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
+      ^~~
+      VITIS_LOOP_40_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27036:7: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27153:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+        for(int pos = msbr - 1; pos >= 0; pos--) {
+        ^~~
+        VITIS_LOOP_49_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27153:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27178:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+    for(int pos = -1; pos >= -F-1; pos--) {
+    ^~~
+    VITIS_LOOP_81_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27178:5: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27248:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+       for(int i = 0; i < W - 1; ++i) {
+       ^~~
+       VITIS_LOOP_169_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:27248:8: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29498:9: warning: Added loop label VITIS_LOOP_28_1:   [xilinx-label-all-loops]
+        for(int c = 1; c < cols-1; c++){
+        ^~~
+        VITIS_LOOP_28_1: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29498:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29500:13: warning: Added loop label VITIS_LOOP_30_2:   [xilinx-label-all-loops]
+            for(int i=0; i<3; i++){
+            ^~~
+            VITIS_LOOP_30_2: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29500:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29501:17: warning: Added loop label VITIS_LOOP_31_3:   [xilinx-label-all-loops]
+                for(int j=0; j<3; j++){
+                ^~~
+                VITIS_LOOP_31_3: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29501:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29512:9: warning: Added loop label VITIS_LOOP_42_4:   [xilinx-label-all-loops]
+        for(int c = 1; c < cols-1; c++){
+        ^~~
+        VITIS_LOOP_42_4: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29512:9: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29514:13: warning: Added loop label VITIS_LOOP_44_5:   [xilinx-label-all-loops]
+            for(int i=0; i<3; i++){
+            ^~~
+            VITIS_LOOP_44_5: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29514:13: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29515:17: warning: Added loop label VITIS_LOOP_45_6:   [xilinx-label-all-loops]
+                for(int j=0; j<3; j++){
+                ^~~
+                VITIS_LOOP_45_6: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29515:17: note: FIX-IT applied suggested code changes
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29528:9: warning: Added loop label VITIS_LOOP_58_7:   [xilinx-label-all-loops]
+        for(int c = 1; c < cols-1; c++){
+        ^~~
+        VITIS_LOOP_58_7: 
+/users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/.autopilot/db/edge_detect.pp.0.cpp:29528:9: note: FIX-IT applied suggested code changes

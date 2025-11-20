@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 35,
+    "calls": "",
+    "file": "edge_detect.cpp",
+    "fileloc": 4,
+    "instructions": 182,
+    "loads": {
+      "G": 3,
+      "L": 4,
+      "T": 1
+    },
+    "name": "edge_detect",
+    "stores": {
+      "L": 6,
+      "T": 3
+    },
+    "total_instructions": 182
+  }
+}

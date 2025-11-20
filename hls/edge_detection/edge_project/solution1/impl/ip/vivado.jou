@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov 19 13:55:08 2025
+# Process ID: 45546
+# Current directory: /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/impl/ip/vivado.log
+# Journal file: /users/timwu/FPGA-Lane-Edge-Detection-V70/hls/edge_detection/edge_project/solution1/impl/ip/vivado.jou
+# Running On: pc175.fpga-test.octfpga-pg0.cloudlab.umass.edu, OS: Linux, CPU Frequency: 2600.000 MHz, CPU Physical cores: 32, Host memory: 608338 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

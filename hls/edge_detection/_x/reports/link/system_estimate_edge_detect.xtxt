@@ -1,0 +1,48 @@
+===============================================================================
+Version:    v++ v2023.2 (64-bit)
+Build:      SW Build 4026344 on 2023-10-11-15:42:10
+Copyright:  Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+Created:    Wed Nov 19 15:32:28 2025
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             edge_detect
+Target Device:           xilinx:u280:gen3x16_xdma_1:202211.1
+Target Clock:            300.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name  Type  Target              OpenCL Library  Compute Units
+-----------  ----  ------------------  --------------  -------------
+edge_detect  c     fpga0:OCL_REGION_0  edge_detect     1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     edge_detect
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit   Kernel Name  Module Name                                       Target Frequency  Estimated Frequency
+-------------  -----------  ------------------------------------------------  ----------------  -------------------
+edge_detect_1  edge_detect  edge_detect_Pipeline_gauss_loop_VITIS_LOOP_28_1   200               273.972595
+edge_detect_1  edge_detect  edge_detect_Pipeline_sobel_loop_VITIS_LOOP_42_4   200               274.725281
+edge_detect_1  edge_detect  edge_detect_Pipeline_thresh_loop_VITIS_LOOP_58_7  200               273.972595
+edge_detect_1  edge_detect  edge_detect                                       200               273.972595
+
+Latency Information
+Compute Unit   Kernel Name  Module Name                                       Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+-------------  -----------  ------------------------------------------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+edge_detect_1  edge_detect  edge_detect_Pipeline_gauss_loop_VITIS_LOOP_28_1   undef           undef          undef         undef           undef            undef           undef
+edge_detect_1  edge_detect  edge_detect_Pipeline_sobel_loop_VITIS_LOOP_42_4   undef           undef          undef         undef           undef            undef           undef
+edge_detect_1  edge_detect  edge_detect_Pipeline_thresh_loop_VITIS_LOOP_58_7  undef           undef          undef         undef           undef            undef           undef
+edge_detect_1  edge_detect  edge_detect                                       undef           undef          undef         undef           undef            undef           undef
+
+Area Information
+Compute Unit   Kernel Name  Module Name                                       FF     LUT    DSP  BRAM  URAM
+-------------  -----------  ------------------------------------------------  -----  -----  ---  ----  ----
+edge_detect_1  edge_detect  edge_detect_Pipeline_gauss_loop_VITIS_LOOP_28_1   5314   4725   0    0     0
+edge_detect_1  edge_detect  edge_detect_Pipeline_sobel_loop_VITIS_LOOP_42_4   5297   5397   0    0     0
+edge_detect_1  edge_detect  edge_detect_Pipeline_thresh_loop_VITIS_LOOP_58_7  340    758    0    0     0
+edge_detect_1  edge_detect  edge_detect                                       12307  13009  0    1267  0
+-------------------------------------------------------------------------------
