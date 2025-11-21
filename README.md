@@ -113,6 +113,34 @@ These lines represent the estimated left and right lane edges based on the detec
 
 # Project Update 2
 
+# Step1 - To download this project onto any system, run the following command in the terminal:
+
+```git clone https://github.com/akotagi23/FPGA-Lane-Edge-Detection-V70.git```
+
+Once cloned, move into the project directory:
+
+```cd FPGA-Lane-Edge-Detection-V70```
+
+# Step2 - Download Sample Dashcam Video
+
+```cd data```
+
+```wget -O white.mp4 https://raw.githubusercontent.com/udacity/CarND-LaneLines-P1/master/test_videos/solidWhiteRight.mp4```
+
+you should be able to see white.mp4 video inside the data folder
+
+```cd ..```
+
+# Step3 - Generate the HLS kernel object (.xo)
+
+```cd FPGA-Lane-Edge-Detection-V70/hls/edge_detection```
+
+```vitis_hls -f script.tcl```
+
+You should be able to see edge_detect.xo file 
+
+# Step4 - 
+
 
 
 
