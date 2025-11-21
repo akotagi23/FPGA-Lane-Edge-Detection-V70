@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+.DS_Store
+out/
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+data/white_frames/
