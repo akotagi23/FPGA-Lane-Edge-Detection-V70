@@ -137,9 +137,39 @@ you should be able to see white.mp4 video inside the data folder
 
 ```vitis_hls -f script.tcl```
 
-You should be able to see edge_detect.xo file 
+You should be able to see "edge_detect.xo" file 
 
-# Step4 - 
+# Step4 - Build host application
+
+```cd FPGA-Lane-Edge-Detection-V70/host```
+
+```sudo apt update```
+
+```sudo apt install pkg-config```
+
+```sudo apt install libopencv-dev```
+
+```make```
+
+You should be able to see a executable file named "host"
+
+# Step5 - Build XCLBIN file
+
+```cd ~/FPGA-Lane-Edge-Detection-V70/hls/edge_detection```
+
+```bash
+v++ -l --kernel edge_detect edge_detect.xo \
+    --platform xilinx_u280_gen3x16_xdma_1_202211_1 \
+    -o edge_detect.xclbin
+```
+
+you should have the file name as "edge_detect.xclbin"
+
+
+
+
+
+
 
 
 
