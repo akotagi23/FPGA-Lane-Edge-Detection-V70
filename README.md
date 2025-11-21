@@ -165,6 +165,16 @@ v++ -l --kernel edge_detect edge_detect.xo \
 
 you should have the file name as "edge_detect.xclbin"
 
+# Step6 - Running the full pipeline on FPGA
+
+```cd FPGA-Lane-Edge-Detection-V70/host```
+
+```./host ../hls/edge_detection/edge_detect.xclbin ../data/white.mp4```
+
+you should get "out_edge.mp4"
+
+
+
 
 
 
