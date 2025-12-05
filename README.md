@@ -9,11 +9,19 @@ The design is intentionally modular. The host manages I/O, light preprocessing, 
 
 By the end of the project, the full flow demonstrates how FPGA acceleration can speed up a vision workload without sacrificing correctness. Deliverables include the CPU “golden” results, side-by-side comparisons of original and processed video, a four-panel clip showing each stage of the pipeline, and an FPGA-accelerated run that highlights the performance gains.
 
-# Project Update 1
-
-# Step1 - Environment Bring-Up
+# Step0 - Environment Bring-Up
 
 Option A — OCT/Cloud node (simulation and FPGA): reserve a node with an Alveo board (e.g., U280), open a shell on the node, and use the preinstalled toolchain (Python/OpenCV for simulation; XRT/Vitis for emulation and on-board runs).
+
+# Option A - Steps to reserve the U280 
+
+1) Follow the instructions at [https://github.com/OCT-FPGA/OCT-Tutorials/blob/master/cloudlab-setup/accounts.md] to get a cloud lab account.
+
+2) Once the account has been setup, go to [https://www.cloudlab.us/instantiate.php] and login into your account with your credentials.
+
+3) Go to Experiments -> Start Experiment -> Change Profile
+
+
 
 Option B — Local PC terminal (software-only): use a standard macOS or Ubuntu machine to run the Python/OpenCV pipeline and generate the golden outputs.
 
