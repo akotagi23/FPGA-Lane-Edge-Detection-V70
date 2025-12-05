@@ -25,6 +25,29 @@ Option A — OCT/Cloud node (simulation and FPGA): reserve a node with an Alveo 
 
 5) Go to Experiments -> Start Experiment -> Change Profile
 
+![step1](temp/step1.png)
+
+6) Search and select 'U280'  -> click 'Select Profile' 
+
+![step2](temp/step2.png)
+
+7) now fill in the contents -> click 'Next'
+   a) List of nodes : In this type the Node name you checked from cluster status. Example. PC171
+   b) Workflow: Vitis
+   c) Tool Version: 2023.1
+   d) Select Image: UBUNTU 22.04
+
+![step3](temp/step3.png)
+
+8) Give project name -> select 'Next'
+
+![step4](temp/step4.png)
+
+9) Click 'Finish'
+
+![step5](temp/step5.png)
+
+10) Wait till you see a 
 
 
 
