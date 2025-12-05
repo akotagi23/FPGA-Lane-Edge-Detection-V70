@@ -34,7 +34,9 @@ Option A — OCT/Cloud node (simulation and FPGA): reserve a node with an Alveo 
 
 ![step5](temp/step5.png)
 
-10) Wait till you see a 
+10) After the node has finished booting up, a startup service will run that installs necessary tools like Docker and a VNC server, which are required to run the setup. Wait until it is completed.
+
+11) The startup status indicator will change to a check mark once the startup service has completed. IMPORTANT: Do not log into the node until the startup service has finished running, as the tools required for this tutorial may not yet be installed.  Wait for the node to startup until you see a checkmark on the element which says pc171 (in this example). Ignore it if there is no checkmark on the fpga element. Open the shell of pc171 (left click -> shell). 
 
 # Option B: Local PC terminal (This is only to run CPU part of the project, for the Hardware part please use Option A)
 
