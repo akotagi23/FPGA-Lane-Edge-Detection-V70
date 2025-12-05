@@ -19,7 +19,12 @@ Option A — OCT/Cloud node (simulation and FPGA): reserve a node with an Alveo 
 
 2) Once the account has been setup, go to [https://www.cloudlab.us/instantiate.php] and login into your account with your credentials.
 
-3) Go to Experiments -> Start Experiment -> Change Profile
+3) To Check the cluster status if the U280 node is free, go to Experiments -> Cluster Status -> sroll down until you find 'Mass Nodes' -> search for u280 -> check the 'Free?' column for 'Yes' and note down the corresponding node form the 'Node' column for reserving the node in next step. 
+
+![Finding the free node](temp/step7.png)
+
+5) Go to Experiments -> Start Experiment -> Change Profile
+
 
 
 
