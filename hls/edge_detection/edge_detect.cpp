@@ -1,70 +1,78 @@
-#include "edge_detect.h"
-#include <hls_math.h>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <xrt/xrt_device.h>
+#include <xrt/xrt_kernel.h>
+#include <xrt/xrt_bo.h>
+#include <opencv2/opencv.hpp>
 
-void edge_detect(
-    unsigned char *in_img,
-    unsigned char *out_img,
-    int rows,
-    int cols,
-    int low_thresh,
-    int high_thresh
-) {
-#pragma HLS INTERFACE m_axi port=in_img offset=slave bundle=gmem0 depth=518400
-#pragma HLS INTERFACE m_axi port=out_img offset=slave bundle=gmem1 depth=518400
+#define WIDTH 960
+#define HEIGHT 540
 
-#pragma HLS INTERFACE s_axilite port=in_img  bundle=control
-#pragma HLS INTERFACE s_axilite port=out_img bundle=control
-#pragma HLS INTERFACE s_axilite port=rows    bundle=control
-#pragma HLS INTERFACE s_axilite port=cols    bundle=control
-#pragma HLS INTERFACE s_axilite port=low_thresh bundle=control
-#pragma HLS INTERFACE s_axilite port=high_thresh bundle=control
-#pragma HLS INTERFACE s_axilite port=return bundle=control
-
-    // Line buffer for 3 rows
-    unsigned char linebuf[3][MAX_WIDTH];
-#pragma HLS ARRAY_PARTITION variable=linebuf complete dim=1
-
-ROW_LOOP:
-    for(int r = 0; r < rows; r++){
-        COL_LOOP:
-        for(int c = 0; c < cols; c++){
-#pragma HLS PIPELINE II=1
-
-            // shift line buffer
-            linebuf[0][c] = linebuf[1][c];
-            linebuf[1][c] = linebuf[2][c];
-
-            // new pixel
-            unsigned char pix = in_img[r*cols + c];
-            linebuf[2][c] = pix;
-
-            // border
-            if(r < 2 || c < 1 || c >= cols-1){
-                out_img[r*cols + c] = 0;
-                continue;
-            }
-
-            int p00 = linebuf[0][c-1];
-            int p01 = linebuf[0][c];
-            int p02 = linebuf[0][c+1];
-
-            int p10 = linebuf[1][c-1];
-            int p11 = linebuf[1][c];
-            int p12 = linebuf[1][c+1];
-
-            int p20 = linebuf[2][c-1];
-            int p21 = linebuf[2][c];
-            int p22 = linebuf[2][c+1];
-
-            int gx = -p00 - 2*p10 - p20 + p02 + 2*p12 + p22;
-            int gy = -p00 - 2*p01 - p02 + p20 + 2*p21 + p22;
-
-            int mag = (gx<0?-gx:gx) + (gy<0?-gy:gy);
-            if(mag > 255) mag = 255;
-
-            out_img[r*cols + c] = (mag > high_thresh ? 255 :
-                                   mag > low_thresh  ? 100 : 0);
-        }
+int main(int argc, char** argv)
+{
+    if(argc < 3) {
+        std::cerr << "Usage: ./host <xclbin> <video>" << std::endl;
+        return 1;
     }
-}
 
+    std::string xclbin_path = argv[1];
+    std::string video_path = argv[2];
+
+    // Load xclbin
+    auto device = xrt::device(0);
+    auto uuid = device.load_xclbin(xclbin_path);
+    auto kernel = xrt::kernel(device, uuid, "edge_detect");
+
+    cv::VideoCapture cap(video_path);
+    if (!cap.isOpened()) {
+        std::cerr << "Failed to open video" << std::endl;
+        return 1;
+    }
+
+    cv::VideoWriter writer(
+        "out_edge.mp4",
+        cv::VideoWriter::fourcc('m','p','4','v'),
+        cap.get(cv::CAP_PROP_FPS),
+        cv::Size(WIDTH, HEIGHT),
+        false
+    );
+
+    cv::Mat frame, gray;
+    size_t img_size = WIDTH * HEIGHT;
+
+    auto bo_in = xrt::bo(device, img_size, XRT_BO_FLAGS_NONE, kernel.group_id(0));
+    auto bo_out = xrt::bo(device, img_size, XRT_BO_FLAGS_NONE, kernel.group_id(1));
+
+    uint8_t* in_ptr = bo_in.map<uint8_t*>();
+    uint8_t* out_ptr = bo_out.map<uint8_t*>();
+
+    while (cap.read(frame)) {
+
+        cv::cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
+
+        if (gray.rows != HEIGHT || gray.cols != WIDTH) {
+            std::cerr << "Frame size mismatch" << std::endl;
+            return 1;
+        }
+
+        memcpy(in_ptr, gray.data, img_size);
+        bo_in.sync(XCL_BO_SYNC_BO_TO_DEVICE);
+
+        auto run = kernel(
+            bo_in, bo_out,
+            HEIGHT, WIDTH,
+            50, 150
+        );
+
+        run.wait();
+
+        bo_out.sync(XCL_BO_SYNC_BO_FROM_DEVICE);
+
+        cv::Mat out_img(HEIGHT, WIDTH, CV_8UC1, out_ptr);
+        writer.write(out_img);
+    }
+
+    std::cout << "Done. Saved -> out_edge.mp4" << std::endl;
+    return 0;
+}
