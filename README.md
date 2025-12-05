@@ -11,7 +11,7 @@ By the end of the project, the full flow demonstrates how FPGA acceleration can 
 
 # Step0 - Environment Bring-Up
 
-Open [https://github.com/akotagi23/FPGA-Lane-Edge-Detection-V70/blob/main/Project_Setup.md] to setup and start the experiment. Note: Option B commands can also be used to if stuck during any later steps in the project specfically during the software execution.  
+Open [https://github.com/akotagi23/FPGA-Lane-Edge-Detection-V70/blob/main/Project_Setup.md] to setup and start the experiment. Note: Option B commands can also be used if stuck during any later steps in the project specfically during the software execution.  
 
 # Software CPU Execution.
 
