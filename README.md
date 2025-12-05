@@ -158,20 +158,33 @@ You should be able to see a executable file named "host"
 ```cd ~/FPGA-Lane-Edge-Detection-V70/hls/edge_detection```
 
 ```bash
-v++ -l --kernel edge_detect edge_detect.xo \
-    --platform xilinx_u280_gen3x16_xdma_1_202211_1 \
-    -o edge_detect.xclbin
+v++ -l \
+  --kernel edge_detect \
+  --platform xilinx_u280_gen3x16_xdma_1_202211_1 \
+  --connectivity.nk edge_detect:1:edge_detect_1 \
+  --connectivity.sp edge_detect_1.in_img:DDR[0] \
+  --connectivity.sp edge_detect_1.out_img:DDR[1] \
+  edge_detect.xo \
+  -o edge_detect.xclbin
 ```
 
 you should have the file name as "edge_detect.xclbin"
+
+# Step6 - Copy the edge_detect.xclbin to host folder. 
+
+```cp edge_detect.xclbin ../../host/ ```
 
 # Step6 - Running the full pipeline on FPGA
 
 ```cd FPGA-Lane-Edge-Detection-V70/host```
 
-```./host ../hls/edge_detection/edge_detect.xclbin ../data/white.mp4```
+```./host edge_detect.xclbin ../data/white.mp4```
 
-you should get "out_edge.mp4"
+you should get "out_edge.mp4" in data folder. 
+
+
+
+
 
 
 
