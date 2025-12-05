@@ -11,9 +11,11 @@ By the end of the project, the full flow demonstrates how FPGA acceleration can 
 
 # Step0 - Environment Bring-Up
 
-Read Project 
+Open [https://github.com/akotagi23/FPGA-Lane-Edge-Detection-V70/blob/main/Project_Setup.md] to setup and start the experiment. Note: Option B commands can also be used to if stuck during any later steps in the project specfically during the software execution.  
 
-# Step2 - To download this project onto any system, run the following command in the terminal:
+# Software CPU Execution.
+
+# Step1 - To download this project onto any system, run the following command in the terminal:
 
 ```git clone https://github.com/akotagi23/FPGA-Lane-Edge-Detection-V70.git```
 
@@ -21,7 +23,7 @@ Once cloned, move into the project directory:
 
 ```cd FPGA-Lane-Edge-Detection-V70```
 
-# Step3 - Download Sample Dashcam Video
+# Step2 - Download Sample Dashcam Video
 
 ```cd data```
 
@@ -32,7 +34,7 @@ you should be able to see white.mp4 video inside the data folder
 ```cd ..```
 
 
-# Step4 - Run the python codes
+# Step3 - Run the python codes
 
 ```cd FPGA-Lane-Edge-Detection-V70```
 
@@ -40,7 +42,7 @@ you should be able to see white.mp4 video inside the data folder
 
 ```python3 src/edge_to_lane.py --video data/white.mp4 --out out/video_to_lane.mp4```
 
-# Step5 - Verify the output in the "out" directory:
+# Step4 - Verify the output in the "out" directory:
 
 run this command to execute the output 
 
@@ -79,7 +81,7 @@ Shows the same frame after processing through the pipeline.
 The detected lane boundaries are highlighted in green, obtained using the Hough Line Transform.
 These lines represent the estimated left and right lane edges based on the detected road markings within the defined Region of Interest (ROI).
 
-# Project Update 2
+# Hardware FPGA Execution
 
 # Step1 - To download this project onto any system, run the following command in the terminal:
 
