@@ -14,4 +14,3 @@ void edge_detect(
     int low_thresh,
     int high_thresh
 );
-
