@@ -5,6 +5,5 @@ out/
 *.mp4
 *.avi
 *.mov
-*.png
 *.jpg
 data/white_frames/
