@@ -3,7 +3,7 @@ set_top edge_detect
 
 add_files edge_detect.cpp
 add_files edge_detect.h
-#add_files -tb tb_edge.cpp
+# add_files -tb tb_edge.cpp
 
 open_solution -reset "solution1"
 set_part {xcu280-fsvh2892-2L-e}
@@ -22,4 +22,3 @@ csynth_design
 export_design -format xo -output edge_detect.xo
 
 exit
-
